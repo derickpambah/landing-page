@@ -3,14 +3,20 @@
 body {
     margin: 0px;
     font-family: Roboto, sans-serif;
+    width: 1440px;
+    height: 1912px;
+}
+.section1-container {
+    display: flex;
+    justify-content: center;
+    height: 475px;
+    background-color: #1f2937;
+    padding: 20px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    height: 475px;
-    background-color: #1f2937;
 }
 
 .logo {
@@ -33,4 +39,60 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Hero text styles */
+.content {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    gap: 3rem;
+}
+
+.content > div {
+    flex: 1;
+    
+}
+
+.hero-left {
+    flex-wrap: wrap;
+   
+}
+
+.hero-right {
+   background-color: #888B8D;
+   padding: 30px 24px 30px 24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    text-align: justify;
+}
+.hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.signup {
+    background-color: #4681f4;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    border: none;
+
 }
